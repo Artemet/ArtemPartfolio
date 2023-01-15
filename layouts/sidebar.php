@@ -9,11 +9,17 @@
         <p>web developer</p>
     </div>
     <div class="menu">
+        <div class="link_line"></div>
         <a href="">About</a>
+        <div class="link_line"></div>
         <a href="">My skills</a>
+        <div class="link_line"></div>
         <a href="">Work</a>
+        <div class="link_line"></div>
         <a href="">Contact</a>
-        <a href="">Blog</a>
+        <div class="link_line"></div>
+        <a href="" class="last_element">Blog</a>
+        <div class="link_line"></div>
     </div>
     <div class="networks">
         <div>

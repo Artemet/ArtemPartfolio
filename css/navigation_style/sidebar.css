@@ -1,0 +1,61 @@
+.sidebar_container{
+    background-color: #181818;
+    width: 130px;
+    height: 100vh;
+    display: grid;
+}
+.sidebar_container .logo{
+    background-color: black;
+    padding-bottom: 10px;
+    height: 189px;
+}
+.sidebar_container .logo .img{
+    text-align: center;
+}
+.sidebar_container .logo img{
+    padding-top: 15px;
+    height: 120px;
+}
+.sidebar_container .logo p{
+    text-align: center;
+    color: #a5a5a5;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.sidebar_container .menu{
+    display: grid;
+    text-align: center;
+    margin: 20px 0;
+}
+.sidebar_container .menu a{
+    text-decoration: none;
+    color: #909096;
+    align-items: center;
+    padding: 14px 0;
+    height: fit-content;
+    transition: 0.5s;
+}
+.sidebar_container .menu .link_line{
+    height: 2px;
+    background-color: #91aa00;
+    width: 100%;
+}
+.sidebar_container .menu a.last_element{
+    color: #91aa00;
+}
+.sidebar_container .menu a:hover{
+    color: #91aa00;
+}
+.sidebar_container .networks{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 13px;
+}
+.sidebar_container .networks svg{
+    color: #909096;
+    transition: 0.5s;
+    height: 25px;
+}
+.sidebar_container .networks svg:hover{
+    color: #91aa00;
+}
