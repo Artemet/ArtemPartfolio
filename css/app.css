@@ -1,5 +1,10 @@
+@import "../css/navigation_style/page_name.css";
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #1d1d1d;
+}
+.page_colume{
+    display: grid;
+    grid-template-columns: auto 1fr;
 }
