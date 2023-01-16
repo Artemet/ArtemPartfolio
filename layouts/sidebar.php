@@ -1,6 +1,3 @@
-<?php
-    include "layouts/header.php";
-?>
 <div class="sidebar_container">
     <div class="logo">
         <div class="img">
