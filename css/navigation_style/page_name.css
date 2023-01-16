@@ -1,0 +1,19 @@
+.page_name{
+    height: 100vh;
+    position: relative;
+    background-image: url("../../res/home_background.png");
+    background-position: center;
+}
+.page_name h1{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    padding-left: 90px;
+    color: white;
+    font-size: 10.3rem;
+    font-size: 80px;
+}
+.page_name h1 span{
+    color: #91aa00;
+}
